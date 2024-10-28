@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mail</title>
+</head>
+
+<body style="font-family: sans-serif; list-style: none;">
+	<header style="display: flex; justify-content: center; background-color: white;">
+	</header>
+	<section style='background-color: white;'>
+		<div style="text-align: center;">
+			<h1 style="font-weight: 100; font-size: 30px; color: #636363;">We’ve Received a Product Inquiry!</h1>
+			<p style="font-size: 16px;">Hello Edible Cups, I’m just dropping in for a moment to say that we have a product inquiry from one of our users. Here are the details for you</p>
+		</div>
+		<article>
+			<h2 style="text-align: left;">Customer's Enquiry</h2>
+			<table style="color: black; font-size: 15px; border-collapse: collapse;">
+				<thead style="opacity: 0.8;">
+					<tr>
+						<th style="border-top-left-radius: 15px; background: rgb(235, 232, 232); padding: 10px 20px;">Customer</th>
+						<th style="background: rgb(235, 232, 232); padding: 10px 20px;">Product</th>
+						<th style="background: rgb(235, 232, 232); padding: 10px 20px;">Mail</th>
+						<th style="background: rgb(235, 232, 232); padding: 10px 20px;">Phone</th>
+						<th style="background: rgb(235, 232, 232); padding: 10px 20px;">Date of Enquiry</th>
+						<th style="background: rgb(235, 232, 232); padding: 10px 20px; ">Quantity</th>
+						<th style="background: rgb(235, 232, 232); border-top-right-radius: 30px; padding: 10px 20px;">Message</th>
+					</tr>
+				</thead>
+				<tbody style="background: #faf9f9;">
+					<tr>
+						<td style="border-bottom-left-radius: 15px; padding: 20px;">{{customer}}</td>
+						<td style='padding: 20px;'>{{product}}</td>
+						<td style='padding: 20px;'>{{mail}}</td>
+						<td style='padding: 20px;'>{{phone}}</td>
+						<td class='date' style="width: 80px; text-align: left;padding: 20px">{{date}}</td>
+						<td style='padding: 20px;'>{{quantity}}</td>
+						<td style="border-bottom-right-radius: 15px;padding: 20px;">{{message}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+</body>
+
+</html>
+
+
+	
